@@ -1,0 +1,44 @@
+@media screen and (max-width: 1200px) {
+  .add-note-box {
+    border-radius: 7px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .notes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .note-content {
+    height: 12vh;
+  }
+  .main-section {
+    margin-top: 13vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-section {
+    margin-top: 18vh;
+  }
+  .navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  .title {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  .title {
+    margin-bottom: 0.5rem;
+  }
+  .notes-grid {
+    grid-template-columns: 1fr;
+  }
+  .main-section {
+    margin-top: 20vh;
+  }
+}
